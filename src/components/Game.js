@@ -148,6 +148,7 @@ function Game() {
   );
 
   useEffect(() => {
+    console.log("function ran again");
     const newSocket = io("http://localhost:8000", {
       query: { senderId },
     });
@@ -331,7 +332,10 @@ function Game() {
                   placeholder="Enter Code"
                   id="text"
                   value={recieverId}
-                  onChange={(e) => setRecieverId(e.target.value)}
+                  onChange={(e) => {
+                    setSenderId(senderId);
+                    setRecieverId(e.target.value);
+                  }}
                 />
               </Form.Group>
 
