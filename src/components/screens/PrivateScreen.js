@@ -11,7 +11,7 @@ const PrivateScreen = () => {
 
   useEffect(() => {
     if (!localStorage.getItem("authToken")) {
-      navigate("/game");
+      navigate("/register");
     }
 
     const fetchPrivateData = async () => {
