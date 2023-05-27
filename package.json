@@ -29,6 +29,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://3tsgame.netlify.app",
   "browserslist": {
     "production": [
       ">0.2%",
