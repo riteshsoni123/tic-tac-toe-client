@@ -149,7 +149,7 @@ function Game() {
 
   useEffect(() => {
     console.log("function ran again");
-    const newSocket = io("http://localhost:8000", {
+    const newSocket = io(process.env.REACT_APP_BACKEND_URL, {
       query: { senderId },
     });
     setSocket(newSocket);
