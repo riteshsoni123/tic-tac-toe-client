@@ -39,7 +39,7 @@ function ForgotPassword() {
 
         <div className={styles.form_container}>
           <div className={styles.left}>
-            <img className={styles.img} src="./images/login.jpg" alt="login" />
+            {/* <img className={styles.img} src="./images/login.jpg" alt="login" /> */}
           </div>
           <div className={styles.right}>
             <h2 className={styles.from_heading}>Member's Email</h2>
