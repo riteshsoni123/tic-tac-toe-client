@@ -62,6 +62,7 @@ function SignUp() {
     <div className={styles.container}>
       <form onSubmit={registerHandler}>
         <h1 className={styles.heading}>Sign up Form</h1>
+        {error && <span>{error}</span>}
         <div className={styles.form_container}>
           <div className={styles.left}>
             <img

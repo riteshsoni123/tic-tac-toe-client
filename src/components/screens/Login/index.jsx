@@ -93,8 +93,14 @@ function Login() {
                 <span>Sing in with Google</span>
             </button> */}
             <p className={styles.text}>
+              Forgot Password ?{" "}
+              <Link to="/forgotpassword" tabIndex={4}>
+                Reset Password
+              </Link>
+            </p>
+            <p className={styles.text}>
               New Here ?{" "}
-              <Link to="/register" tabIndex={4}>
+              <Link to="/register" tabIndex={5}>
                 Register
               </Link>
             </p>

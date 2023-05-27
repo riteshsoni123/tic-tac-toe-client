@@ -9,8 +9,10 @@ import PrivateScreen from "./components/screens/PrivateScreen";
 import Login from "./components/screens/Login";
 // import RegisterScreen from "./components/screens/RegisterScreen";
 import SignUp from "./components/screens/SignUp";
-import ForgotPasswordScreen from "./components/screens/ForgotPasswordScreen";
-import ResetPasswordScreen from "./components/screens/ResetPasswordScreen";
+// import ForgotPasswordScreen from "./components/screens/ForgotPasswordScreen";
+import ForgotPassword from "./components/screens/ForgotPassword";
+// import ResetPasswordScreen from "./components/screens/ResetPasswordScreen";
+import ResetPassword from "./components/screens/ResetPassword";
 
 import Game from "./components/Game";
 import Navigationbar from "./components/Navigationbar";
@@ -35,15 +37,11 @@ function App() {
             />
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/register" element={<SignUp />} />
-            <Route
-              exact
-              path="/forgotpassword"
-              element={<ForgotPasswordScreen />}
-            />
+            <Route exact path="/forgotpassword" element={<ForgotPassword />} />
             <Route
               exact
               path="/passwordreset/:resetToken"
-              element={<ResetPasswordScreen />}
+              element={<ResetPassword />}
             />
             <Route exact path="/game" element={<Game />} />
           </Routes>
