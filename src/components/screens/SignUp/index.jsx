@@ -65,11 +65,11 @@ function SignUp() {
         {error && <span>{error}</span>}
         <div className={styles.form_container}>
           <div className={styles.left}>
-            {/* <img
+            <img
               className={styles.img}
               src="./images/signup.jpg"
               alt="signup"
-            /> */}
+            />
           </div>
           <div className={styles.right}>
             <h2 className={styles.from_heading}>Create Account</h2>

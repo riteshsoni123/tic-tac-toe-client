@@ -5,14 +5,15 @@ import PrivateRoute from "./components/routing/PrivateRoute";
 
 // Screens
 import PrivateScreen from "./components/screens/PrivateScreen";
-// import LoginScreen from "./components/screens/LoginScreen";
 import Login from "./components/screens/Login";
-// import RegisterScreen from "./components/screens/RegisterScreen";
 import SignUp from "./components/screens/SignUp";
-// import ForgotPasswordScreen from "./components/screens/ForgotPasswordScreen";
 import ForgotPassword from "./components/screens/ForgotPassword";
-// import ResetPasswordScreen from "./components/screens/ResetPasswordScreen";
 import ResetPassword from "./components/screens/ResetPassword";
+
+// import LoginScreen from "./components/screens/LoginScreen";
+// import RegisterScreen from "./components/screens/RegisterScreen";
+// import ForgotPasswordScreen from "./components/screens/ForgotPasswordScreen";
+// import ResetPasswordScreen from "./components/screens/ResetPasswordScreen";
 
 import Game from "./components/Game";
 import Navigationbar from "./components/Navigationbar";

@@ -51,7 +51,7 @@ function ResetPassword() {
 
         <div className={styles.form_container}>
           <div className={styles.left}>
-            {/* <img className={styles.img} src="./images/login.jpg" alt="signup" /> */}
+            <img className={styles.img} src="./images/login.jpg" alt="signup" />
           </div>
           <div className={styles.right}>
             <h2 className={styles.from_heading}>Reset Password</h2>
